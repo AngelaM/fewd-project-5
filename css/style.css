@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+input {
+    padding: 15px 72px 15px 15px;
+}
+
+.search-bar {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    width: 90%;
+    max-width: 850px;
+    margin: 15px auto;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+a {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    input {
+        padding-right:360px;
+    }
+}
