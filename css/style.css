@@ -6,13 +6,18 @@ body {
     margin: 20px;
 }
 
-input {
-    padding: 15px 72px 15px 15px;
-}
-
 .search-bar {
     margin: 30px auto;
     text-align: center;
+    display: flex;
+    width: 50vw;
+    max-width: 600px;
+}
+
+input {
+    padding: 15px;
+    flex-grow: 1;
+    min-width: 75px;
 }
 
 .gallery {
@@ -28,8 +33,6 @@ a {
     text-align: center;
 }
 
-@media (min-width: 768px) {
-    input {
-        padding-right:360px;
-    }
+a:hover {
+    opacity: 0.5;
 }
