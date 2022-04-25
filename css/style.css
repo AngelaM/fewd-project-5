@@ -4,6 +4,7 @@
 
 body {
     margin: 20px;
+    background-color: lightgrey;
 }
 
 .search-bar {
@@ -12,6 +13,7 @@ body {
     display: flex;
     width: 50vw;
     max-width: 600px;
+    border: 2px solid grey;
 }
 
 input {
@@ -35,4 +37,8 @@ a {
 
 a:hover {
     opacity: 0.5;
+}
+
+img {
+    border: 2px solid white;
 }
